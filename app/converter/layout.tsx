@@ -2,6 +2,8 @@
 import { SidebarProvider, SidebarInset, SidebarTrigger } from "@/components/ui/sidebar";
 import { Separator } from "@/components/ui/separator";
 import { AppSidebar } from "@/components/ui/layout/converterLayout";
+import { ThemeTogglerButton } from "@/components/animate-ui/components/buttons/theme-toggler";
+import { AnimatedThemeToggler } from "@/components/ui/animated-theme-toggler";
 
 export default function ConverterLayout({
     children,
@@ -20,7 +22,7 @@ export default function ConverterLayout({
                         </div>
 
                         <div className="flex items-center gap-2">
-                            asdasd
+                            <AnimatedThemeToggler />
                         </div>
                     </header>
 
